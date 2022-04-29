@@ -194,7 +194,7 @@ function Connected({
             </Text>
             <Text
                 as="p"
-                sx={{ fontSize: [2, 2, 2], fontWeight: 300, pb: 3, mb: 5 }}
+                sx={{ fontSize: [2, 2, 2], fontWeight: 300, pb: 3, mb: 5, wordBreak: 'break-all' }}
             >
                 {address}
             </Text>
