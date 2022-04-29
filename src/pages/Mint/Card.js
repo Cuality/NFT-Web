@@ -9,7 +9,8 @@ export default function Card({ whitelistOnly, singleCost, supply }) {
     return (
         <Box
             sx={{
-                width: 392,
+                width: '100%',
+                maxWidth: 392,
                 bg: 'backgroundBright',
                 display: 'flex',
                 flexDirection: 'column',
