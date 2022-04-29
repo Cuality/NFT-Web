@@ -247,7 +247,7 @@ function Connected({
                     {lastTransaction.hash}
                 </Box>
             )}
-            <Box sx={{ position: 'absolute', bottom: 4, right: 5 }}>
+            <Box sx={{ position: [null, null, 'absolute'], mt: [4, 4, 0], bottom: 4, right: 5 }}>
                 <Link
                     sx={{ fontSize: [1, 1, 1], cursor: 'pointer' }}
                     onClick={disconnect}
