@@ -10,13 +10,13 @@ export default function AuthenticationLayout({
 }) {
     return (
         <Flex sx={{ minHeight: '100vh', maxWidth: maxWidth, mx: 'auto' }}>
-            <Flex
+            <Box
                 sx={{
                     justifyContent: 'space-between',
                     alignItems: 'center',
                     flexDirection: 'column',
-                    pl: [7, 7, 8, 8, 8],
-                    pr: [7, 7, 8, 8, 9],
+                    pl: [4, 7, 8, 8, 8],
+                    pr: [4, 7, 8, 8, 9],
                     py: [6, 6, 7, 8],
                     flex: 1,
                 }}
@@ -24,6 +24,7 @@ export default function AuthenticationLayout({
                 <Flex
                     sx={{
                         maxWidth: 450,
+                        mx:'auto',
                         justifyContent: 'space-between',
                         flexDirection: 'column',
                         height: '100%',
@@ -67,7 +68,7 @@ export default function AuthenticationLayout({
                     </Box>
                     <Box />
                 </Flex>
-            </Flex>
+            </Box>
             <Box
                 sx={{
                     minWidth: ['auto', 'auto', '50%'],

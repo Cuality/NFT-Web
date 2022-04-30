@@ -194,7 +194,7 @@ function Connected({
             </Text>
             <Text
                 as="p"
-                sx={{ fontSize: [2, 2, 2], fontWeight: 300, pb: 3, mb: 5 }}
+                sx={{ fontSize: [2, 2, 2], fontWeight: 300, pb: 3, mb: 5, wordBreak: 'break-all' }}
             >
                 {address}
             </Text>
@@ -247,7 +247,7 @@ function Connected({
                     {lastTransaction.hash}
                 </Box>
             )}
-            <Box sx={{ position: 'absolute', bottom: 4, right: 5 }}>
+            <Box sx={{ position: [null, null, 'absolute'], mt: [4, 4, 0], bottom: 4, right: 5 }}>
                 <Link
                     sx={{ fontSize: [1, 1, 1], cursor: 'pointer' }}
                     onClick={disconnect}
