@@ -5,6 +5,7 @@ import FullScreenError from '../../components/FullScreenError'
 import { useSearchParams } from 'react-router-dom'
 
 import { Box, Text, Button, Link } from 'theme-ui'
+import Header from './Header2'
 
 export default function Success() {
     const { width, height } = useWindowSize()
@@ -22,22 +23,25 @@ export default function Success() {
 
     return (
         <>
+ <Box>
+            <Header />
+        </Box>
             <Box
                 sx={{
-                    minHeight: '100vh',
+                    minHeight: '80vh',
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
                     justifyContent: 'center',
                 }}
             >
-                <Box sx={{ maxWidth: 500, textAlign: 'center' }}>
+                <Box color="#FFFFFF" sx={{ maxWidth: 1000, textAlign: 'center' }}>
                     <Text
                         as="h1"
                         sx={{
                             fontFamily: 'heading',
                             fontSize: [6, 6, 8],
-                            lineHeight: 1.1,
+                            lineHeight: 1.5,
                             pr: [0, 0, 4],
                             pb: [5],
                         }}
@@ -48,9 +52,8 @@ export default function Success() {
                         as="p"
                         sx={{ fontSize: [2, 2, 2], fontWeight: 300, pb: 5 }}
                     >
-                        Within a few moments, your transaction will appear in
-                        your favourite ETH store (Opensea, Foundation,
-                        Rareable...)
+                        Within a few moments, your transaction will appear on
+                        your favorite NFT platform
                     </Text>
 
                     <Link

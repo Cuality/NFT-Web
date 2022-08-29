@@ -18,6 +18,8 @@ import { infuriaKey } from './environment'
 import theme from './theme'
 
 import Home from './pages/Home'
+import Me from './pages/Me'
+import Roadmap from './pages/Roadmap'
 import Success from './pages/Success'
 import Mint from './pages/Mint'
 
@@ -29,7 +31,7 @@ window.EventEmitter = EventEmitter
 
 const tokenKey = 'token'
 
-mixpanel.init('d5290f9d8c2013af5afd452957d617ac')
+mixpanel.init('ca880398a84346aa9f2c2b2ddd7d3f08')
 
 // Set up connectors
 const connectors = () => {
@@ -59,32 +61,52 @@ function App() {
     const provider = ({ chainId }) =>
         new providers.InfuraProvider(chainId, infuriaKey)
 
-    return (
-        <WagmiProvider autoConnect provider={provider} connectors={connectors}>
-            <CookiesProvider>
-                <MixpanelProvider>
-                    <AuthContext.Provider
-                        value={{
-                            authToken: cookies[tokenKey],
-                            signOut: () => removeCookie(tokenKey, ''),
-                        }}
-                    >
-                        <ThemeProvider theme={theme}>
-                            <BrowserRouter>
-                                <Routes>
-                                    <Route path="/" element={<Home />} />
-                                    <Route
-                                        path="/success"
-                                        element={<Success />}
-                                    />
-                                    <Route path="/mint" element={<Mint />} />
-                                </Routes>
-                            </BrowserRouter>
-                        </ThemeProvider>
-                    </AuthContext.Provider>
-                </MixpanelProvider>
-            </CookiesProvider>
-        </WagmiProvider>
+    return ( <
+        WagmiProvider autoConnect provider = { provider }
+        connectors = { connectors } >
+        <
+        CookiesProvider >
+        <
+        MixpanelProvider >
+        <
+        AuthContext.Provider value = {
+            {
+                authToken: cookies[tokenKey],
+                signOut: () => removeCookie(tokenKey, ''),
+            }
+        } >
+        <
+        ThemeProvider theme = { theme } >
+        <
+        BrowserRouter >
+        <
+        Routes >
+        <
+        Route path = "/"
+        element = { < Home / > }
+        /> 
+	<
+        Route path = "/me"
+        element = { < Me / > }
+        />
+<
+        Route path = "/roadmap"
+        element = { < Roadmap / > }
+        />
+<
+        Route path = "/success"
+        element = { < Success / > }
+        /> <
+        Route path = "/mint"
+        element = { < Mint / > }
+        /> <
+        /Routes> <
+        /BrowserRouter> <
+        /ThemeProvider> <
+        /AuthContext.Provider> <
+        /MixpanelProvider> <
+        /CookiesProvider> <
+        /WagmiProvider>
     )
 }
 

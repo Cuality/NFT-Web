@@ -19,7 +19,7 @@ import { useSupply } from '../../hooks/useSupply'
 
 import Card from './Card'
 
-const DEFAULT_PRICE = 0.07
+const DEFAULT_PRICE = 0.2
 
 function Mint() {
     // 🕰 History
@@ -31,7 +31,7 @@ function Mint() {
 
     // 📄 Contract
     const contractConfig = {
-        addressOrName: '0xb363af6181a4335608880510772A5f61a5183c88',
+        addressOrName: '0x5b257F4C043A73790287DEc0e5124e3fa97C3DCf',
         contractInterface: contractInterface,
         signerOrProvider: signerResponse.data || provider,
     }
@@ -184,10 +184,10 @@ function Connected({
     const errorMessage = smartError(error, contract) ?? error?.error?.message
 
     return (
-        <Box>
+        <Box color="#FFFFFF">
             <Message
                 title="The wait is finally over"
-                subtitle={`At present there are ${supply.totalSupply?.toString()}/${supply.maxSupply?.toString()} TinyFaces minted. Select how many TinyFaces you want to mint...`}
+                subtitle={`There are ${supply.totalSupply?.toString()}/${supply.maxSupply?.toString()} Ugly Unicorns minted. Select how many 🦄's you want to mint...`}
             />
             <Text as="p" sx={{ fontSize: [2, 2, 2], fontWeight: 300, pb: 2 }}>
                 Your address is:
@@ -243,7 +243,7 @@ function Connected({
                         color: 'primary',
                     }}
                 >
-                    For more information: https://rinkeby.etherscan.io/tx/$
+                    For more information: https://etherscan.io/tx/$
                     {lastTransaction.hash}
                 </Box>
             )}
@@ -264,6 +264,7 @@ function Message({ title, subtitle }) {
         <>
             <Text
                 as="h1"
+	color="#FFFFFF"
                 sx={{
                     fontFamily: 'heading',
                     fontSize: [6, 6, 8],
@@ -274,7 +275,7 @@ function Message({ title, subtitle }) {
             >
                 {title}
             </Text>
-            <Text as="p" sx={{ fontSize: [2, 2, 2], fontWeight: 300, pb: 5 }}>
+            <Text as="p" color="#FFFFFF" sx={{ fontSize: [2, 2, 2], fontWeight: 300, pb: 5 }}>
                 {subtitle}
             </Text>
         </>
@@ -284,11 +285,10 @@ function Message({ title, subtitle }) {
 function Connect({ connect, connectResponse }) {
     return (
         <div>
-            <Message
+            <Message 
                 title="The wait is finally over"
-                subtitle="Thank you for being a supporter from day one. Our TinyFaces are
-                finally ready to be minted. Connect your ETH wallet to
-                start buying."
+                subtitle="Thank you for being a day one supporter. Ugly 🦄's are
+                finally ready to be minted. Connect wallet to start."
             ></Message>
 
             <ConnectPopover

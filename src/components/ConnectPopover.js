@@ -10,7 +10,7 @@ function ConnectPopover({ connectResponse, connect }) {
                 sx={{ mt: 2, cursor: 'pointer' }}
                 onClick={() => setHidden(false)}
             >
-                Connect your wallet
+                Connect 👛
             </Button>
             {!hidden && (
                 <Box

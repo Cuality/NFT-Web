@@ -50,6 +50,7 @@ import character152x from './images/characters/character15-2x.jpg'
 import character16 from './images/characters/character16.jpg'
 import character162x from './images/characters/character16-2x.jpg'
 
+
 export default function Hero({ supply }) {
     return (
         <Box>
@@ -138,6 +139,8 @@ function Ticker({ supply }) {
             }}
         >
             <Text
+            as="a"
+            color="primary"
                 sx={{
                     fontSize: 1,
                     fontWeight: '500',

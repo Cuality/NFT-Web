@@ -87,7 +87,7 @@ export default function Footer({ supply }) {
                                     <Button
                                         as="a"
                                         target="_blank"
-                                        href="https://discord.com/invite/tinyfacesnft"
+                                        href="https://discord.gg/SxpsxWCsNb"
                                     >
                                         Join Discord
                                         <Box
@@ -103,7 +103,7 @@ export default function Footer({ supply }) {
                                         variant="secondary"
                                         ml={[0, 0, 2]}
                                         sx={{ mt: [2, 2, 0] }}
-                                        href="https://twitter.com/tinyfacesnft"
+                                        href="https://twitter.com/valleyrejects"
                                         target="_blank"
                                     >
                                         Follow on Twitter
@@ -159,7 +159,7 @@ function CollectionDroppingSoon({ supply }) {
                 alignItems: 'center',
             }}
         >
-            <Text
+            <Text color="primary"
                 sx={{
                     fontSize: 1,
                     fontWeight: '500',

@@ -4,6 +4,8 @@ import { useSupply } from '../../hooks/useSupply'
 import { useAccount, useProvider, useSigner } from 'wagmi'
 
 import Header from './Header'
+import Land from './Land'
+import Info1 from './Info1'
 import Hero from './Hero'
 import Info from './Info'
 import Blocks from './Blocks'
@@ -26,7 +28,7 @@ export default function Home() {
 
     // 📄 Contract
     const contractConfig = {
-        addressOrName: '0xb363af6181a4335608880510772A5f61a5183c88',
+        addressOrName: '0x5b257F4C043A73790287DEc0e5124e3fa97C3DCf',
         contractInterface: contractInterface,
         signerOrProvider: signerResponse.data || provider,
     }
@@ -44,6 +46,8 @@ export default function Home() {
     return (
         <Box>
             <Header />
+	<Land />
+	<Info1 />
             <Hero supply={supply} />
             <Info />
             <Blocks />

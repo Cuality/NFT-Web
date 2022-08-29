@@ -29,7 +29,7 @@ export default function Carousel() {
     return (
         <Box
             sx={{
-                bg: 'backgroundDark',
+                bg: '#808000',
                 pt: [7, 7, 8],
                 pb: [8, 8, 9],
                 overflow: 'hidden',
@@ -61,7 +61,7 @@ export default function Carousel() {
                             lineHeight: 1.0,
                         }}
                     >
-                        Find your favourite character
+                        Find your favorite character
                     </Text>
 
                     <Grid gap={3} columns={2} sx={{ flexShrink: 0 }}>

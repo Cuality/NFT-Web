@@ -38,7 +38,7 @@ export default function Card({ whitelistOnly, singleCost, supply }) {
                     px: 5,
                     display: 'flex',
                     alignItems: 'center',
-                    bg: 'backgroundInversed',
+                    bg: '#3c005a',
                     color: 'textGrey',
                 }}
             >
@@ -66,12 +66,12 @@ export default function Card({ whitelistOnly, singleCost, supply }) {
                 ></Box>
                 <Box sx={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
                     <Box>
-                        <InfoIcon />
+                        <InfoIcon />{'  '}<Text sx={{ fontSize: 10, fontWeight: 'body' }}>
+                        The artwork will be revealed soon.
+                    </Text>
                     </Box>
 
-                    <Text sx={{ fontSize: 11, fontWeight: 'body' }}>
-                        The artwork will be revealed within 24h from buying.
-                    </Text>
+                    
                 </Box>
             </Box>
         </Box>

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Logo from '../../components/Logo'
 import Twitter from '../../components/icons/Twitter'
+import Instagram from '../../components/icons/Instagram'
 import Discord from '../../components/icons/Discord'
 import OpenSea from '../../components/icons/OpenSea'
 
@@ -24,8 +25,8 @@ export default function Header() {
             >
                 <Button
                     as="a"
-                    href="https://twitter.com/tinyfacesnft"
-                    variant="secondary"
+                    href="https://twitter.com/valleyrejects"
+                    variant="primary"
                     target="_blank"
                     sx={{
                         width: 46,
@@ -37,12 +38,29 @@ export default function Header() {
                 >
                     <Twitter />
                 </Button>
+	
+	<Button
+                    as="a"
+                    variant="primary"
+                    target="_blank"
+                    href="https://instagram.com/valleyrejects/"
+                    sx={{
+                        width: 46,
+                        px: [0, 0, 0],
+                        ml: 2,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                    }}
+                >
+                    <Instagram />
+                </Button>
 
                 <Button
                     as="a"
-                    variant="secondary"
+                    variant="primary"
                     target="_blank"
-                    href="https://discord.com/invite/tinyfacesnft"
+                    href="https://discord.gg/SxpsxWCsNb"
                     sx={{
                         width: 46,
                         px: [0, 0, 0],
@@ -56,9 +74,9 @@ export default function Header() {
                 </Button>
                 <Button
                     as="a"
-                    variant="secondary"
+                    variant="primary"
                     target="_blank"
-                    href="https://opensea.io/collection/tinyfacesofficial"
+                    href="https://opensea.io/collection/"
                     sx={{
                         width: 46,
                         px: [0, 0, 0],
@@ -72,6 +90,7 @@ export default function Header() {
                 </Button>
             </Box>
             <Flex
+	
                 sx={{
                     justifyContent: ['flex-start', 'flex-start', 'center'],
                     alignItems: 'center',
@@ -84,10 +103,10 @@ export default function Header() {
                     <Logo width={89} height={50} />
                 </Box>
             </Flex>
-
-            <Flex sx={{ justifyContent: 'flex-end', alignItems: 'center' }}>
+	<Flex sx={{ justifyContent: 'flex-end', alignItems: 'center' }}>
+               
                 <Button as={Link} to="/mint" variant="primary">
-                    Buy your TinyFace
+                    Mint 🦄's
                     <Box sx={{ display: 'inline-block' }} ml={3}>
                         <RightArrow />
                     </Box>

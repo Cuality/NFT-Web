@@ -14,6 +14,7 @@ export default function Info() {
                 <Grid gap={2} columns={['1fr', '1fr', '1fr 1fr']}>
                     <Text
                         as="h1"
+	color="#FFFFFF"
                         sx={{
                             fontFamily: 'heading',
                             fontSize: [6, 6, 8],
@@ -22,16 +23,14 @@ export default function Info() {
                             maxWidth: 580,
                         }}
                     >
-                        A new wave of collectibles is about to hit the{' '}
-                        <Text as="span" sx={{ fontStyle: 'italic' }}>
+                        A <Text as="span" color="#BFCE31" sx={{ fontStyle: 'bold' }}>new </Text><Text as="span" color="#F7046E" sx={{ fontStyle: 'bold' }}>wave</Text> of <Text as="span" color="#FFCF2F" sx={{ fontStyle: 'bold' }}>utility collectibles</Text> are about to <Text as="span" color="#0CB8EF" sx={{ fontStyle: 'italic' }}>hit the{' '}
+                        
                             blockchain
                         </Text>
                         .
                     </Text>
-                    <Text as="p" sx={{ fontSize: [2, 2, 4], fontWeight: 300 }}>
-                        Characterised by soft lighting, vintage colour schemes
-                        and quirky costumes, these generative 3D TinyFaces are
-                        the addition to your NFT collection you’ve been waiting
+                    <Text as="p" color="#FFFFFF" sx={{ fontSize: [2, 2, 4], fontWeight: 300 }}>
+                        Creating the future of web3, together. Great insights, great strategy and a great plan for the future of underrepresented founders. Ugly Unicorns are the addition to your collection you’ve been waiting
                         for.
                     </Text>
                 </Grid>
