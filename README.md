@@ -1,4 +1,4 @@
-# TinyFaces NFT (Web) 👦🏼👨🏾👩🏻
+# Ugly Unicorns NFT (Web) 👦🏼👨🏾👩🏻
 
 <img src="/public/github-header.png?raw=true" width="888">
 
