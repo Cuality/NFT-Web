@@ -109,7 +109,7 @@ export default function Header() {
 	
 	<Flex sx={{ justifyContent: 'flex-end', alignItems: 'center' }}>
                
-                <Button as="a" href="https://thestartupnft.com/register/" color="primary" variant="secondary">
+                <Button as="a" href="https://foundingmember.club/register/" color="primary" variant="secondary">
                     Create Founding Member Club Profile
                     <Box sx={{ display: 'inline-block' }} ml={3}>
                         <RightArrow />

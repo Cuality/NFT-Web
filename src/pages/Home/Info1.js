@@ -10,7 +10,7 @@ export default function Info1() {
                 px: [5, 5, 6],
             }}
         >
-            <Box sx={{ maxWidth: 1430 }}>
+            <Box sx={{ maxWidth: 1230 }}>
                 <Grid gap={1} columns={['1fr', '1fr']}>
                     <Text
                         as="h1"
@@ -20,10 +20,10 @@ export default function Info1() {
                             fontSize: [6, 6, 8],
                             lineHeight: .1,
                             pr: [0, 0, 4],
-                            maxWidth: 1430,
+                            maxWidth: 580,
                         }}
                     >
-                        <Text as="span" color="#BFCE31" sx={{ fontStyle: 'bold' }}>un·​der·​rep·​re·​sent·​ed: </Text><Text as="span" color="#F7046E" sx={{ fontStyle: 'bold' }}>inadequately </Text> <Text as="span" color="#FFCF2F" sx={{ fontStyle: 'bold' }}>represented</Text><Text as="span" color="#0CB8EF" sx={{ fontStyle: 'italic' }}>{' '}
+                        <Text as="span" color="#BFCE31" sx={{ fontStyle: 'bold' }}>under·​rep·​re·​sent·​ed</Text><Text as="span" color="#F7046E" sx={{ fontStyle: 'bold' }}></Text> <Text as="span" color="#FFCF2F" sx={{ fontStyle: 'bold' }}></Text><Text as="span" color="#0CB8EF" sx={{ fontStyle: 'italic' }}>{' '}
                         </Text>
                         
                     </Text>

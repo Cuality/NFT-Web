@@ -54,7 +54,7 @@ Ugly Unicorns grant holders access to an episodic project that incentivizes hold
 
  <Item title="What is the Founding Members Club?">
 
-Ugly Unicorns actively place each holder in the shoes of a founder. We are 100% member focused and community is everything to us, thats why we created a platform solely for our community, the <a href="https://thestartupnft.com"> founding members club</a>. By joining Ugly Unicorns holders will have access to this private membership club of innovators and forward thinkers. The FMC is what the NFT community is all about, communities built around great people doing dope stuff. Its purpose is for like minds to get behind a startup then help scale and supercharge it.
+Ugly Unicorns actively place each holder in the shoes of a founder. We are 100% member focused and community is everything to us, thats why we created a platform solely for our community, the <a href="https://foundingmember.club"> founding members club</a>. By joining Ugly Unicorns holders will have access to this private membership club of innovators and forward thinkers. The FMC is what the NFT community is all about, communities built around great people doing dope stuff. Its purpose is for like minds to get behind a startup then help scale and supercharge it.
                         </Item>
 
                         <Item title="Who’s the team behind Ugly Unicorns?">
@@ -67,9 +67,9 @@ Ugly Unicorns actively place each holder in the shoes of a founder. We are 100% 
 
                         <Item title="When does minting begin?">
                             Anyone can start minting on December 22nd
-                            2022. Public sale will follow after 22 hours. Follow
+                            2022, first come first serve. Follow
                             our <a href="https://twitter.com/valleyrejects"> Twitter</a>  page or join our <a href="https://discord.gg/SxpsxWCsNb"> Discord</a> server to get
-                            the latest updates and be the first one to know.
+                            the latest updates.
                         </Item>
 
 <Item title="What are these funds for?">
@@ -86,19 +86,17 @@ Built by the best in Silicon Valley with proven secure terms. The S.A.F.E, a sim
 </Item>
 
 
-<Item title="Why Equity and Not Just a Hoody?">
+<Item title="Why equity and not just a hoody?">
 
 Every year underrepresented founders face immense challenges when starting companies. One of those challenges, unfortunately, is the lack of funding they receive from venture capital investors. Of all venture capital funding only about 2.2% goes to underrepresented Founders, annually. The founder of this project is an underrepresented founder, so to combat such statistics the founder decided to start this social project in an effort to bring innovative minds along the journey of building a company. This is a journey like none other and we believe that each member apart of this historical project deserves far more than a shirt. 
  </Item>
-                        <Item title="When do holders get equity in the startup?">
-                            The initial distribution will be reserved to those
-                            who have been whitelisted and assigned a TinyOG role
-                            inside our Discord channel.
+                        <Item title="Wen equity in the startup?">
+                            Equity is distributed when a company decides to IPO. In the event that there is an exit event other than an IPO, each co-founder will recieve all rewards agreed upon within specified within the terms of the S.A.F.E.
                         </Item>
 
-<Item title="Wen membership end?">
+<Item title="Wen does FMC stop taking members?">
 Membership is limited, acceptance ends once we reach the valuation cap set in the terms of the S.A.F.E.
-Once membership closes, the only way to become eligible for FMC membership acceptance will be through secondary market purchases. Although the new holder of the NFT won’t be able to claim a S.A.F.E with the currently held NFT, they will have access to some of the same utilities FMC members have and will be eligible to purchase a discounted NFT in the future where they then become a member eligible to claim a S.A.F.E. This means that whomever is the current holder of a NFT, will be able to use that NFT as FMC eligibility and to MINT a future NFT in one of The Startup NFTs future funding rounds. Every round after our initial drop will have 10000 discounted NFTs reserved for members who would like to be gifted additional equity and as well 1111 additional NFTs for new memberships.</Item>
+Once membership closes, the only way to become eligible for FMC membership acceptance will be through secondary market purchases. Although the new holder of the NFT won’t be able to claim a S.A.F.E after cap is reached with the currently held NFT, they will have access to some of the same utilities FMC members have and will be eligible to purchase a discounted NFT in the future where they then become a member eligible to claim a S.A.F.E. This means that whomever is the current holder of a NFT purchased after valuation cap is reached, will be able to use that NFT as FMC eligibility and to MINT a future NFT in one of our future sales. </Item>
                     </Box>
                 </Grid>
             </Box>

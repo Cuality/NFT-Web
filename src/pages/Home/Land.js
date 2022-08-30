@@ -1,8 +1,6 @@
 import { Grid, Box, Button, Flex } from 'theme-ui'
 import { Link } from 'react-router-dom'
 
-import DC_BG from './images/DC_BG.jpg'
-import DC_BG2x from './images/DC_BG2x.jpg'
 import video from './images/landing.mp4'
 
 export default function Land() {
